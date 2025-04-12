@@ -30,7 +30,7 @@ export function Header() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-    link.href = "/resume.pdf" // Make sure this path is correct (e.g., public/resume.pdf)
+    link.href = "/Parmar_Yash_Resume.pdf" // Make sure this path is correct (e.g., public/resume.pdf)
     link.download = "Parmar_Yash_Resume.pdf"
     document.body.appendChild(link)
     link.click()
