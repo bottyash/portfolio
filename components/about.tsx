@@ -83,6 +83,9 @@ Outside of the code cave, I’m exploring cloud platforms like GCP, tinkering wi
                           <MapPin className="h-4 w-4 mr-1" />
                           <span>Vallabh Vidhyanagar, Anand, India</span>
                         </div>
+                        <p className="mt-3 text-gray-600">
+                        7.67
+                      </p>
                       </div>
                     </div>
                   </div>
