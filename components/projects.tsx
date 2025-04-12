@@ -48,7 +48,7 @@ export function Projects() {
       description:
         "An education-centric field project proposing improved metrics for evaluating and ranking schools across India.",
       image: "/placeholder.svg?height=400&width=600",
-      category: "data",
+      category: "other",
       technologies: ["Python", "Data Science", "Analytics"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
@@ -81,7 +81,7 @@ export function Projects() {
       description:
         "An IoT-based project using Arduino and RFID to automate attendance recording and report generation via Excel.",
       image: "/placeholder.svg?height=400&width=600",
-      category: "iot",
+      category: "other",
       technologies: ["Arduino", "C++", "VB.Net", "Excel"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
