@@ -93,14 +93,6 @@ export function Footer() {
                 Made while sipping Tea.
               </Link>
               </p>
-              <p>
-              <Link href="#contact" className="hover:text-primary transition-colors">
-                Wanna Contact Me?
-              </Link>
-              </p>
-              <Link href="#" className="hover:text-primary transition-colors">
-                Cookies Policy
-              </Link>
             </nav>
           </div>
         </div>
