@@ -85,7 +85,7 @@ Outside of the code cave, I’m exploring cloud platforms like GCP, tinkering wi
                         </div>
                       </div>
                       <p className="mt-3 text-gray-600">
-                        7.67
+                        GCPA: 7.67
                       </p>
                     </div>
                   </div>
