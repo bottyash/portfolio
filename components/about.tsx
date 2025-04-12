@@ -44,7 +44,7 @@ export function About() {
             <p className="text-gray-600 mb-4">
             I have a soft spot for backend logic, database wizardry, and finding elegant solutions to tangled problems. Whether I’m optimizing a homegrown college management system or getting a chatbot to understand what you actually mean, I love turning ideas into working systems.
 Outside of the code cave, I’m exploring cloud platforms like GCP, tinkering with networking setups, or occasionally winning a staring contest with my terminal. I believe in clean code, continuous learning, and making sure every project ends with “well, that actually worked!”
-
+</p>
             <p className="text-gray-600">
             So whether you're here to explore my projects, collaborate on something cool, or just vibe with a fellow techie—welcome aboard!
 
