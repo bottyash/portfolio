@@ -18,7 +18,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="text-2xl font-bold">
-              <span className="text-primary">Dev</span>Portfolio
+              <span className="text-primary">My</span>Portfolio
             </Link>
             <p className="mt-2 text-gray-400 max-w-md">
               A passionate BTech IT student creating innovative solutions through technology.

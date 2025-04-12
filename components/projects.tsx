@@ -22,68 +22,72 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "GCET Management System (GMS)",
       description:
-        "A full-stack e-commerce platform with user authentication, product catalog, cart functionality, and payment integration.",
+        "A departmental full-stack project to enhance GCET’s homegrown college management infrastructure with real-time modules, APIs, and online payments.",
       image: "/placeholder.svg?height=400&width=600",
       category: "web",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Redux"],
+      technologies: ["PHP (Laravel)", "MySQL", "JavaScript", "HTML", "CSS"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "The Voice",
       description:
-        "A mobile application for managing tasks, setting reminders, and tracking progress with intuitive UI.",
+        "A data collection initiative to support language dataset generation for natural language processing and machine learning use cases.",
       image: "/placeholder.svg?height=400&width=600",
-      category: "mobile",
-      technologies: ["React Native", "Firebase", "Redux"],
+      category: "ml",
+      technologies: ["Python", "NLP", "Machine Learning", "Data Science"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
     },
     {
       id: 3,
-      title: "Portfolio Website Design",
-      description: "A modern and responsive portfolio website design for creative professionals with dark/light mode.",
+      title: "LEARN (Learning Evaluation and Rankings Network)",
+      description:
+        "An education-centric field project proposing improved metrics for evaluating and ranking schools across India.",
       image: "/placeholder.svg?height=400&width=600",
-      category: "ui",
-      technologies: ["Figma", "Adobe XD", "Illustrator"],
+      category: "data",
+      technologies: ["Python", "Data Science", "Analytics"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
     },
     {
       id: 4,
-      title: "Weather Forecast Dashboard",
+      title: "MADS CARS",
       description:
-        "A weather dashboard that displays current and forecasted weather data using external API integration.",
+        "A car dealership software created for the Software Engineering course, handling inventory, bookings, and user management.",
       image: "/placeholder.svg?height=400&width=600",
       category: "web",
-      technologies: ["JavaScript", "HTML/CSS", "OpenWeather API"],
+      technologies: ["C#", "ASP.NET", "Razor", "MySQL", "HTML", "CSS", "JavaScript"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
     },
     {
       id: 5,
-      title: "Fitness Tracking App",
-      description: "A mobile app that tracks workouts, nutrition, and provides personalized fitness recommendations.",
+      title: "Student Management System",
+      description:
+        "A web-based system for managing student records, attendance, fees, and academic performance.",
       image: "/placeholder.svg?height=400&width=600",
-      category: "mobile",
-      technologies: ["Flutter", "Firebase", "Google Fit API"],
+      category: "web",
+      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
     },
     {
       id: 6,
-      title: "Data Visualization Tool",
-      description: "A tool for visualizing complex datasets with interactive charts and filtering capabilities.",
+      title: "Smart Attendance System",
+      description:
+        "An IoT-based project using Arduino and RFID to automate attendance recording and report generation via Excel.",
       image: "/placeholder.svg?height=400&width=600",
-      category: "other",
-      technologies: ["D3.js", "React", "Node.js", "Express"],
+      category: "iot",
+      technologies: ["Arduino", "C++", "VB.Net", "Excel"],
       liveLink: "https://example.com",
       githubLink: "https://github.com",
     },
-  ]
+  ];
+  
 
   const filteredProjects = filter === "all" ? projects : projects.filter((project) => project.category === filter)
 
