@@ -89,12 +89,15 @@ export function Footer() {
           <p className="text-gray-400 text-sm">© {new Date().getFullYear()} All the details are best of knowledege and keeps getting updates timely :)</p>
           <div className="mt-4 md:mt-0">
             <nav className="flex space-x-6 text-sm text-gray-400">
-              <Link href="#" className="hover:text-primary transition-colors">
-                Privacy Policy
+              <p><Link href="#" className="hover:text-primary transition-colors">
+                Made while sipping Tea.
               </Link>
-              <Link href="#" className="hover:text-primary transition-colors">
-                Terms of Service
+              </p>
+              <p>
+              <Link href="#contact" className="hover:text-primary transition-colors">
+                Wanna Contact Me?
               </Link>
+              </p>
               <Link href="#" className="hover:text-primary transition-colors">
                 Cookies Policy
               </Link>
