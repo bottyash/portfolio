@@ -73,64 +73,58 @@ export function Contact() {
   ]
 
   return (
-    <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <motion.div
-          className="text-center mb-16"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          variants={fadeIn}
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-          <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="max-w-2xl mx-auto text-gray-600">
-          Got a project in mind? Or just want to nerd out over tech stuff or pitch a wild idea at 2 AM? I’m all ears (and Coffee). Don’t be shy—reach out and let’s make something awesome (or at least mildly impressive) together!           </p>
-        </motion.div>
+    <section id="contact" className="py-20 bg-white flex items-center justify-center min-h-screen">
+  <div className="container mx-auto px-4">
+    <motion.div
+      className="text-center mb-16"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+      variants={fadeIn}
+    >
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+      <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
+      <p className="max-w-2xl mx-auto text-gray-600">
+        Got a project in mind? Or just want to nerd out over tech stuff or pitch a wild idea at 2 AM? 
+        I’m all ears (and coffee). Don’t be shy—reach out and let’s make something awesome (or at least 
+        mildly impressive) together!
+      </p>
+    </motion.div>
 
-        <div >
-          <motion.div
-            className="lg:col-span-1"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            variants={fadeIn}
-          >
-            <div className="space-y-6">
-              {contactInfo.map((info, index) => (
-                <Card key={index}>
-                  <CardContent className="p-6">
-                    <a
-                      href={info.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-start hover:text-primary transition-colors"
-                    >
-                      <div className="mr-4 mt-1">{info.icon}</div>
-                      <div>
-                        <h4 className="text-lg font-semibold text-gray-900">{info.title}</h4>
-                        <p className="text-gray-600 mt-1">{info.details}</p>
-                      </div>
-                    </a>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </motion.div>
-
-          <motion.div
-            className="lg:col-span-2"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            variants={fadeIn}
-          >
-          </motion.div>
+    <div className="flex justify-center">
+      <motion.div
+        className="w-full max-w-2xl"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        variants={fadeIn}
+      >
+        <div className="space-y-6">
+          {contactInfo.map((info, index) => (
+            <Card key={index}>
+              <CardContent className="p-6">
+                <a
+                  href={info.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start hover:text-primary transition-colors"
+                >
+                  <div className="mr-4 mt-1">{info.icon}</div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900">{info.title}</h4>
+                    <p className="text-gray-600 mt-1">{info.details}</p>
+                  </div>
+                </a>
+              </CardContent>
+            </Card>
+          ))}
         </div>
-      </div>
-    </section>
+      </motion.div>
+    </div>
+  </div>
+</section>
+
   )
 }

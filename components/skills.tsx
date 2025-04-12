@@ -64,8 +64,8 @@ export function Skills() {
       icon: <Code className="h-6 w-6 text-primary" />,
       skills: [
         { name: "Git & GitHub", proficiency: 50 },
-        { name: "Docker", proficiency: 60 },
-        { name: "CI/CD", proficiency: 65 },
+        { name: "Docker", proficiency: 20 },
+        { name: "CI/CD", proficiency: 25 },
         { name: "Problem Solving", proficiency: 90 },
         { name: "Agile Methodology", proficiency: 75 },
       ],
