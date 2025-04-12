@@ -14,8 +14,7 @@ export function Projects() {
   const categories = [
     { id: "all", name: "All" },
     { id: "web", name: "Web Development" },
-    { id: "mobile", name: "Mobile Apps" },
-    { id: "ui", name: "UI/UX Design" },
+    { id: "ml", name: "Machine Learning" },
     { id: "other", name: "Other" },
   ]
 
