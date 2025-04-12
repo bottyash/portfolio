@@ -38,17 +38,16 @@ export function About() {
           >
             <h3 className="text-2xl font-bold text-gray-900 mb-6">My Story</h3>
             <p className="text-gray-600 mb-4">
-              Hello! I'm Parmar Yash Kiritkumar, a B.Tech. Information Technology student passionate about creating innovative solutions through technology.
-              My journey in tech began when I was 12, tinkering with HTML and CSS to build my first website.
+            My journey into tech began at 12, experimenting with HTML and CSS—because what better way to rebel than building websites while others played video games? Since then, I’ve grown into a developer who’s fluent in C/C++, Java, Python, PHP (Laravel), .NET, and a bunch of other tools that make computers do cool things (or at least pretend to).
+                  
             </p>
             <p className="text-gray-600 mb-4">
-              Throughout my academic journey, I've developed a strong foundation in various programming languages and
-              techmologies. I enjoy solving complex problems and turning ideas into reality through code.
-            </p>
+            I have a soft spot for backend logic, database wizardry, and finding elegant solutions to tangled problems. Whether I’m optimizing a homegrown college management system or getting a chatbot to understand what you actually mean, I love turning ideas into working systems.
+Outside of the code cave, I’m exploring cloud platforms like GCP, tinkering with networking setups, or occasionally winning a staring contest with my terminal. I believe in clean code, continuous learning, and making sure every project ends with “well, that actually worked!”
+
             <p className="text-gray-600">
-              When I'm not coding, you can find me exploring new technologies or
-              participating in hackathons. I believe in continuous learning and staying updated with the latest industry
-              trends.
+            So whether you're here to explore my projects, collaborate on something cool, or just vibe with a fellow techie—welcome aboard!
+
             </p>
           </motion.div>
 

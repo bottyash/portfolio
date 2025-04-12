@@ -86,8 +86,7 @@ export function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
-            Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
-          </p>
+          Got a project in mind? Or just want to nerd out over tech stuff or pitch a wild idea at 2 AM? I’m all ears (and Coffee). Don’t be shy—reach out and let’s make something awesome (or at least mildly impressive) together!           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
