@@ -72,6 +72,4 @@ export function Contact() {
     },
   ]
 
-  return (
-  )
 }
