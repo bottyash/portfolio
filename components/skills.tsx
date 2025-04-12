@@ -15,41 +15,37 @@ export function Skills() {
       title: "Frontend Development",
       icon: <Layout className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "HTML/CSS", proficiency: 90 },
-        { name: "JavaScript", proficiency: 85 },
-        { name: "React.js", proficiency: 80 },
-        { name: "Next.js", proficiency: 75 },
-        { name: "Tailwind CSS", proficiency: 85 },
+        { name: "HTML/CSS", proficiency: 80 },
+        { name: "JavaScript", proficiency: 75 },
+        { name: "React.js", proficiency: 30 },
+        { name: "Next.js", proficiency: 30 },
+        { name: "Tailwind CSS", proficiency: 30 },
       ],
     },
     {
       title: "Backend Development",
       icon: <Server className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "Node.js", proficiency: 75 },
-        { name: "Express.js", proficiency: 70 },
+        { name: "PHP", proficiency: 75 },
+        { name: "C#", proficiency: 70 },
         { name: "Python", proficiency: 65 },
         { name: "Django", proficiency: 60 },
-        { name: "RESTful APIs", proficiency: 80 },
       ],
     },
     {
       title: "Mobile Development",
       icon: <Smartphone className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "React Native", proficiency: 70 },
-        { name: "Flutter", proficiency: 60 },
         { name: "Android (Java)", proficiency: 50 },
-        { name: "iOS (Swift)", proficiency: 40 },
       ],
     },
     {
       title: "Database & Cloud",
       icon: <Database className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "MongoDB", proficiency: 75 },
-        { name: "MySQL", proficiency: 70 },
-        { name: "Firebase", proficiency: 80 },
+        { name: "MongoDB", proficiency: 55 },
+        { name: "MySQL", proficiency: 80 },
+        { name: "Firebase", proficiency: 30 },
         { name: "AWS", proficiency: 60 },
         { name: "Vercel", proficiency: 85 },
       ],
@@ -59,7 +55,6 @@ export function Skills() {
       icon: <Figma className="h-6 w-6 text-primary" />,
       skills: [
         { name: "Figma", proficiency: 80 },
-        { name: "Adobe XD", proficiency: 70 },
         { name: "Wireframing", proficiency: 85 },
         { name: "Prototyping", proficiency: 75 },
       ],
@@ -68,7 +63,7 @@ export function Skills() {
       title: "Other Skills",
       icon: <Code className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "Git & GitHub", proficiency: 85 },
+        { name: "Git & GitHub", proficiency: 50 },
         { name: "Docker", proficiency: 60 },
         { name: "CI/CD", proficiency: 65 },
         { name: "Problem Solving", proficiency: 90 },
@@ -91,7 +86,7 @@ export function Skills() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">My Skills</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
-            Here are the technologies and tools I've worked with and my proficiency in each.
+          Here are the technologies I've wrangled, debugged, and occasionally yelled at — along with how well we get along:
           </p>
         </motion.div>
 
