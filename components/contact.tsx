@@ -89,7 +89,7 @@ export function Contact() {
           Got a project in mind? Or just want to nerd out over tech stuff or pitch a wild idea at 2 AM? I’m all ears (and Coffee). Don’t be shy—reach out and let’s make something awesome (or at least mildly impressive) together!           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div >
           <motion.div
             className="lg:col-span-1"
             initial="hidden"
