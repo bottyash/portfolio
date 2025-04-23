@@ -143,18 +143,7 @@ export function Projects() {
                     alt={project.title}
                     className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                    <Button asChild size="sm" variant="secondary">
-                      <Link href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                        <Eye className="h-4 w-4 mr-1" /> Preview
-                      </Link>
-                    </Button>
-                    <Button asChild size="sm" variant="secondary">
-                      <Link href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                        <Github className="h-4 w-4 mr-1" /> Code
-                      </Link>
-                    </Button>
-                  </div>
+                  
                 </div>
                 <CardContent className="p-6 flex-grow">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{project.title}</h3>
