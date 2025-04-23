@@ -156,18 +156,7 @@ export function Projects() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter className="p-6 pt-0 flex justify-between">
-                  <Button asChild variant="outline" size="sm">
-                    <Link href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="h-4 w-4 mr-1" /> Live Demo
-                    </Link>
-                  </Button>
-                  <Button asChild variant="outline" size="sm">
-                    <Link href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                      <Github className="h-4 w-4 mr-1" /> Repository
-                    </Link>
-                  </Button>
-                </CardFooter>
+               
               </Card>
             </motion.div>
           ))}
