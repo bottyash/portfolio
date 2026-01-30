@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Code, Database, Layout, Smartphone, Server, Figma } from "lucide-react"
+import { Code, Database, Layout, Smartphone, Server, Cloud } from "lucide-react"
 
 export function Skills() {
   const fadeIn = {
@@ -13,59 +13,69 @@ export function Skills() {
   const skillCategories = [
     {
       title: "Frontend Development",
-      icon: <Layout className="h-6 w-6 text-primary" />,
+      icon: <Layout className="h-6 w-6" />,
+      color: "from-purple-600 to-pink-600",
       skills: [
-        { name: "HTML/CSS", proficiency: 80 },
-        { name: "JavaScript", proficiency: 75 },
-        { name: "React.js", proficiency: 30 },
-        { name: "Next.js", proficiency: 30 },
-        { name: "Tailwind CSS", proficiency: 30 },
+        { name: "HTML/CSS", proficiency: 85 },
+        { name: "JavaScript", proficiency: 80 },
+        { name: "React.js", proficiency: 70 },
+        { name: "Next.js", proficiency: 65 },
+        { name: "Tailwind CSS", proficiency: 75 },
       ],
     },
     {
       title: "Backend Development",
-      icon: <Server className="h-6 w-6 text-primary" />,
+      icon: <Server className="h-6 w-6" />,
+      color: "from-blue-600 to-cyan-600",
       skills: [
-        { name: "PHP", proficiency: 75 },
-        { name: "C#", proficiency: 70 },
-        { name: "Python", proficiency: 65 },
-        { name: "Django", proficiency: 60 },
-      ],
-    },
-    {
-      title: "Mobile Development",
-      icon: <Smartphone className="h-6 w-6 text-primary" />,
-      skills: [
-        { name: "Android (Java)", proficiency: 50 },
+        { name: "PHP (Laravel)", proficiency: 80 },
+        { name: "C#/.NET", proficiency: 75 },
+        { name: "Python", proficiency: 70 },
+        { name: "Django", proficiency: 65 },
+        { name: "Java", proficiency: 70 },
       ],
     },
     {
       title: "Database & Cloud",
-      icon: <Database className="h-6 w-6 text-primary" />,
+      icon: <Database className="h-6 w-6" />,
+      color: "from-green-600 to-emerald-600",
       skills: [
-        { name: "MongoDB", proficiency: 55 },
-        { name: "MySQL", proficiency: 80 },
-        { name: "Firebase", proficiency: 30 },
+        { name: "MySQL", proficiency: 85 },
+        { name: "MongoDB", proficiency: 65 },
+        { name: "Firebase", proficiency: 60 },
         { name: "AWS", proficiency: 60 },
-        { name: "Vercel", proficiency: 85 },
+        { name: "GCP", proficiency: 55 },
       ],
     },
     {
-      title: "UI/UX Design",
-      icon: <Figma className="h-6 w-6 text-primary" />,
+      title: "Mobile Development",
+      icon: <Smartphone className="h-6 w-6" />,
+      color: "from-orange-600 to-red-600",
       skills: [
+        { name: "Android (Java)", proficiency: 65 },
+        { name: "React Native", proficiency: 50 },
+      ],
+    },
+    {
+      title: "Programming Languages",
+      icon: <Code className="h-6 w-6" />,
+      color: "from-violet-600 to-purple-600",
+      skills: [
+        { name: "C/C++", proficiency: 80 },
+        { name: "Python", proficiency: 75 },
+        { name: "JavaScript", proficiency: 80 },
+        { name: "PHP", proficiency: 80 },
+        { name: "C#", proficiency: 75 },
+      ],
+    },
+    {
+      title: "Tools & Other",
+      icon: <Cloud className="h-6 w-6" />,
+      color: "from-pink-600 to-rose-600",
+      skills: [
+        { name: "Git & GitHub", proficiency: 75 },
+        { name: "Docker", proficiency: 50 },
         { name: "Figma", proficiency: 80 },
-        { name: "Wireframing", proficiency: 85 },
-        { name: "Prototyping", proficiency: 75 },
-      ],
-    },
-    {
-      title: "Other Skills",
-      icon: <Code className="h-6 w-6 text-primary" />,
-      skills: [
-        { name: "Git & GitHub", proficiency: 50 },
-        { name: "Docker", proficiency: 20 },
-        { name: "CI/CD", proficiency: 25 },
         { name: "Problem Solving", proficiency: 90 },
         { name: "Agile Methodology", proficiency: 75 },
       ],
@@ -83,10 +93,12 @@ export function Skills() {
           transition={{ duration: 0.5 }}
           variants={fadeIn}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">My Skills</h2>
-          <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="max-w-2xl mx-auto text-gray-600">
-          Here are the technologies I've wrangled, debugged, and occasionally yelled at — along with how well we get along:
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            My <span className="gradient-text">Skills</span>
+          </h2>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-6 rounded-full" />
+          <p className="max-w-2xl mx-auto text-lg text-gray-600">
+            Here are the technologies I've wrangled, debugged, and occasionally yelled at — along with how well we get along:
           </p>
         </motion.div>
 
@@ -100,23 +112,37 @@ export function Skills() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               variants={fadeIn}
             >
-              <Card className="h-full">
+              <Card className="h-full hover-lift hover:shadow-2xl transition-all duration-300 border-t-4 border-t-transparent hover:border-t-purple-600 group">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-6">
-                    {category.icon}
-                    <h3 className="text-xl font-bold text-gray-900 ml-3">{category.title}</h3>
+                    <div className={`p-3 rounded-lg bg-gradient-to-br ${category.color} text-white mr-3 group-hover:scale-110 transition-transform duration-300`}>
+                      {category.icon}
+                    </div>
+                    <h3 className="text-xl font-bold text-gray-900">{category.title}</h3>
                   </div>
                   <div className="space-y-4">
-                    {category.skills.map((skill) => (
-                      <div key={skill.name}>
-                        <div className="flex justify-between mb-1">
+                    {category.skills.map((skill, skillIndex) => (
+                      <motion.div
+                        key={skill.name}
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: skillIndex * 0.1 }}
+                      >
+                        <div className="flex justify-between mb-2">
                           <span className="text-sm font-medium text-gray-700">{skill.name}</span>
-                          <span className="text-sm font-medium text-gray-500">{skill.proficiency}%</span>
+                          <span className="text-sm font-semibold text-purple-600">{skill.proficiency}%</span>
                         </div>
-                        <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div className="bg-primary h-2 rounded-full" style={{ width: `${skill.proficiency}%` }}></div>
+                        <div className="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
+                          <motion.div
+                            className={`h-2.5 rounded-full bg-gradient-to-r ${category.color}`}
+                            initial={{ width: 0 }}
+                            whileInView={{ width: `${skill.proficiency}%` }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 1, delay: skillIndex * 0.1, ease: "easeOut" }}
+                          />
                         </div>
-                      </div>
+                      </motion.div>
                     ))}
                   </div>
                 </CardContent>
