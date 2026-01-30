@@ -1,27 +1,23 @@
-import { Header } from "@/components/header"
-import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
-import { Skills } from "@/components/skills"
-import { Projects } from "@/components/projects"
-import { Contact } from "@/components/contact"
-import { Footer } from "@/components/footer"
-import { ScrollProgress } from "@/components/scroll-progress"
-import { AnimatedBackground } from "@/components/animated-background"
+import { NavbarRevamp } from "@/components/navbar-revamp"
+import { HeroRevamp } from "@/components/hero-revamp"
+import { AboutRevamp } from "@/components/about-revamp"
+import { SkillsRevamp } from "@/components/skills-revamp"
+import { ProjectsRevamp } from "@/components/projects-revamp"
+import { ContactRevamp } from "@/components/contact-revamp"
+import { FooterRevamp } from "@/components/footer-revamp"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white relative">
-      <ScrollProgress />
-      <AnimatedBackground />
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+    <div className="min-h-screen bg-white dark:bg-gray-900">
+      <NavbarRevamp />
+      <main id="home">
+        <HeroRevamp />
+        <AboutRevamp />
+        <SkillsRevamp />
+        <ProjectsRevamp />
+        <ContactRevamp />
       </main>
-      <Footer />
+      <FooterRevamp />
     </div>
   )
 }
