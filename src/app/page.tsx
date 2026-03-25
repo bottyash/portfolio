@@ -126,18 +126,6 @@ export default function Home() {
         initial="hidden"
         animate="visible"
       >
-        {/* YP Logo */}
-        <div className="mb-4">
-          <Image
-            src="/yp-logo.png"
-            alt="YP Logo"
-            width={72}
-            height={72}
-            priority
-            className="drop-shadow-lg"
-          />
-        </div>
-
         <div className="z-100">
           <WelcomeModal />
         </div>
