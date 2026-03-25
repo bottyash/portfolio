@@ -31,7 +31,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
       onClick={() => setIsOpen(true)}
     >
       <Image
-        src="/logo-yuvi.svg"
+        src="/yp-logo.png"
         width={100}
         height={100}
         alt="Logo"
