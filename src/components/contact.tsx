@@ -44,8 +44,8 @@ export function Contact() {
     {
       icon: <Instagram className="h-5 w-5" />,
       title: 'Portfolio',
-      value: 'yashlparmar.vercel.app',
-      href: 'https://yashlparmar.vercel.app',
+      value: 'yashkparmar.vercel.app',
+      href: 'https://yashkparmar.vercel.app',
       color: 'text-pink-600'
     }
   ];

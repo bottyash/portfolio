@@ -31,14 +31,14 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Yash Parmar",
-      url: "https://yashlparmar.vercel.app",
+      url: "https://yashkparmar.vercel.app",
     },
   ],
   creator: "Yash Parmar",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yashlparmar.vercel.app",
+    url: "https://yashkparmar.vercel.app",
     title: "Yash Parmar Portfolio",
     description: "Interactive AI-powered portfolio — AI/ML Software Engineer",
     siteName: "Yash Parmar Portfolio",
