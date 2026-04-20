@@ -289,7 +289,7 @@ const Chat = () => {
             animationDuration={1.5}
             label="Star"
             size={'sm'}
-            repoUrl="https://github.com/bottyash/ai-native-portfolio"
+            repoUrl="https://github.com/bottyash/"
           />
         </div>
       </div>

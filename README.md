@@ -14,7 +14,7 @@ An AI-powered interactive portfolio built with Next.js and Mistral AI.
 ### Install & Run
 
 ```sh
-git clone https://github.com/bottyash/ai-native-portfolio.git
+git clone https://github.com/bottyash/
 cd ai-native-portfolio
 npm install --legacy-peer-deps
 ```

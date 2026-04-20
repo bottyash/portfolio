@@ -101,7 +101,7 @@ export default function Home() {
           animationDuration={1.5}
           label="Star"
           size={'sm'}
-          repoUrl="https://github.com/bottyash/ai-native-portfolio.git"
+          repoUrl="https://github.com/bottyash/"
         />
       </div>
 

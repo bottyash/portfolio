@@ -82,7 +82,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'GitHub Repository',
-        url: 'https://github.com/bottyash/ai-native-portfolio',
+        url: 'https://github.com/bottyash/',
       },
     ],
     images: [] as { src: string; alt: string }[],
