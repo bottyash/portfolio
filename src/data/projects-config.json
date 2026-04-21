@@ -1,7 +1,14 @@
 {
   "repos": {
+    "HackerRush": {
+      "visible": true,
+      "category": "Python",
+      "title": "HackerRush",
+      "description": "",
+      "order": 999
+    },
     "portfolio": {
-      "visible": false,
+      "visible": true,
       "category": "Web Development",
       "title": "Portfolio",
       "description": "My Portfolio site",
@@ -14,15 +21,8 @@
       "description": "Git Repo for my Course work at IITGn",
       "order": 999
     },
-    "HackerRush": {
-      "visible": true,
-      "category": "Python",
-      "title": "HackerRush",
-      "description": "",
-      "order": 999
-    },
     "Sales-Forecast": {
-      "visible": false,
+      "visible": true,
       "category": "Python",
       "title": "Sales Forecast",
       "description": "",
@@ -57,14 +57,14 @@
       "order": 999
     },
     "IITGn-Mess-Food-Wastage-March": {
-      "visible": false,
+      "visible": true,
       "category": "Python",
       "title": "IITGn Mess Food Wastage March",
       "description": "",
       "order": 999
     },
     "Shakespear": {
-      "visible": false,
+      "visible": true,
       "category": "Python",
       "title": "Shakespear",
       "description": "A lightweight Python CLI chatbot that generates authentic Shakespeare Responses.",
@@ -99,7 +99,7 @@
       "order": 999
     },
     "admitguard-yash-parmar": {
-      "visible": false,
+      "visible": true,
       "category": "Python",
       "title": "Admitguard Yash Parmar",
       "description": "Project Name: AdmitGuard: Admission Data Validation & Compliance System (WEEK 1 VIBE CODING PROJECT)",
