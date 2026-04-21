@@ -2,6 +2,7 @@
 
 import { Card, Carousel } from '@/components/projects/apple-cards-carousel';
 import { DynamicProjectContent } from '@/components/projects/Data';
+import { RESUME_PROJECTS } from '@/components/projects/ResumeData';
 import { MergedProject } from '@/types/projects';
 import { useEffect, useState } from 'react';
 
@@ -24,7 +25,7 @@ export default function AllProjects() {
     fetchProjects();
   }, []);
 
-  const cards = projects.map((project, index) => (
+  const githubCards = projects.map((project, index) => (
     <Card
       key={project.repoName}
       card={{
@@ -33,10 +34,16 @@ export default function AllProjects() {
         category: project.category,
         content: <DynamicProjectContent project={project} />,
       }}
-      index={index}
+      index={index + RESUME_PROJECTS.length}
       layout={true}
     />
   ));
+
+  const resumeCards = RESUME_PROJECTS.map((card, index) => (
+    <Card key={card.title} card={card} index={index} layout={true} />
+  ))
+
+  const cards = [...resumeCards, ...githubCards];
 
   if (loading) {
     return (
