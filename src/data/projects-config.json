@@ -1,0 +1,207 @@
+{
+  "repos": {
+    "portfolio": {
+      "visible": false,
+      "category": "Web Development",
+      "title": "Portfolio",
+      "description": "My Portfolio site",
+      "order": 999
+    },
+    "IITGn-Assignments": {
+      "visible": false,
+      "category": "AI/ML",
+      "title": "IITGn Assignments",
+      "description": "Git Repo for my Course work at IITGn",
+      "order": 999
+    },
+    "HackerRush": {
+      "visible": true,
+      "category": "Python",
+      "title": "HackerRush",
+      "description": "",
+      "order": 999
+    },
+    "Sales-Forecast": {
+      "visible": false,
+      "category": "Python",
+      "title": "Sales Forecast",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day27": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day27",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day26": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day26",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day25-PM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day25 PM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day25-AM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day25 AM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Mess-Food-Wastage-March": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Mess Food Wastage March",
+      "description": "",
+      "order": 999
+    },
+    "Shakespear": {
+      "visible": false,
+      "category": "Python",
+      "title": "Shakespear",
+      "description": "A lightweight Python CLI chatbot that generates authentic Shakespeare Responses.",
+      "order": 999
+    },
+    "IITGn-Day22": {
+      "visible": false,
+      "category": "AI/ML",
+      "title": "IITGn Day22",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day21": {
+      "visible": false,
+      "category": "AI/ML",
+      "title": "IITGn Day21",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day11": {
+      "visible": false,
+      "category": "AI/ML",
+      "title": "IITGn Day11",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day20": {
+      "visible": false,
+      "category": "AI/ML",
+      "title": "IITGn Day20",
+      "description": "",
+      "order": 999
+    },
+    "admitguard-yash-parmar": {
+      "visible": false,
+      "category": "Python",
+      "title": "Admitguard Yash Parmar",
+      "description": "Project Name: AdmitGuard: Admission Data Validation & Compliance System (WEEK 1 VIBE CODING PROJECT)",
+      "order": 999
+    },
+    "IITGn-Day11_PM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day11 PM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day11_AM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day11 AM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day10-PM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day10 PM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day10-AM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day10 AM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn_Day9_PM-": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day9 PM ",
+      "description": "",
+      "order": 999
+    },
+    "IITGn_Day9_AM-": {
+      "visible": false,
+      "category": "Project",
+      "title": "IITGn Day9 AM ",
+      "description": "",
+      "order": 999
+    },
+    "IITGn_Day8_AM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day8 AM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn_Day8_PM-": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day8 PM ",
+      "description": "",
+      "order": 999
+    },
+    "IITGn_Day7_PM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day7 PM",
+      "description": "",
+      "order": 999
+    },
+    "IITGn-Day7-AM": {
+      "visible": false,
+      "category": "Python",
+      "title": "IITGn Day7 AM",
+      "description": "Day 7 First session assignment",
+      "order": 999
+    },
+    "-Reverse-Engineer-the-AI-Build-a-Product-Teardown-Engine": {
+      "visible": false,
+      "category": "Project",
+      "title": " Reverse Engineer The AI Build A Product Teardown Engine",
+      "description": "Exercise authored for IIT Gandhinagar PG Diploma in AI-ML & Agentic AI Engineering — Week 1, Day 5",
+      "order": 999
+    },
+    "pgd-week1": {
+      "visible": false,
+      "category": "Project",
+      "title": "Pgd Week1",
+      "description": "Repo Created for the 1st Week of PG at IITGn",
+      "order": 999
+    },
+    "LangChainKN": {
+      "visible": false,
+      "category": "AI/ML",
+      "title": "LangChainKN",
+      "description": "",
+      "order": 999
+    },
+    "bottyash": {
+      "visible": false,
+      "category": "Project",
+      "title": "Bottyash",
+      "description": "",
+      "order": 999
+    }
+  }
+}
