@@ -1,12 +1,5 @@
 {
   "repos": {
-    "HackerRush": {
-      "visible": true,
-      "category": "Python",
-      "title": "HackerRush",
-      "description": "",
-      "order": 999
-    },
     "portfolio": {
       "visible": true,
       "category": "Web Development",
@@ -14,11 +7,11 @@
       "description": "My Portfolio site",
       "order": 999
     },
-    "IITGn-Assignments": {
-      "visible": false,
-      "category": "AI/ML",
-      "title": "IITGn Assignments",
-      "description": "Git Repo for my Course work at IITGn",
+    "HackerRush": {
+      "visible": true,
+      "category": "Python",
+      "title": "HackerRush",
+      "description": "",
       "order": 999
     },
     "Sales-Forecast": {
@@ -26,6 +19,41 @@
       "category": "Python",
       "title": "Sales Forecast",
       "description": "",
+      "order": 999
+    },
+    "IITGn-Mess-Food-Wastage-March": {
+      "visible": true,
+      "category": "Python",
+      "title": "IITGn Mess Food Wastage March",
+      "description": "",
+      "order": 999
+    },
+    "Shakespear": {
+      "visible": true,
+      "category": "Python",
+      "title": "Shakespear",
+      "description": "A lightweight Python CLI chatbot that generates authentic Shakespeare Responses.",
+      "order": 999
+    },
+    "admitguard-yash-parmar": {
+      "visible": true,
+      "category": "Python",
+      "title": "Admitguard Yash Parmar",
+      "description": "Project Name: AdmitGuard: Admission Data Validation & Compliance System (WEEK 1 VIBE CODING PROJECT)",
+      "order": 999
+    },
+    "parishiksha": {
+      "visible": true,
+      "category": "Python",
+      "title": "Parishiksha",
+      "description": "NCERT textbook corpus pipeline: PDF extraction → structured segmentation → BM25 retrieval. Built for a grounded QA system.",
+      "order": 999
+    },
+    "IITGn-Assignments": {
+      "visible": false,
+      "category": "AI/ML",
+      "title": "IITGn Assignments",
+      "description": "Git Repo for my Course work at IITGn",
       "order": 999
     },
     "IITGn-Day27": {
@@ -56,20 +84,6 @@
       "description": "",
       "order": 999
     },
-    "IITGn-Mess-Food-Wastage-March": {
-      "visible": true,
-      "category": "Python",
-      "title": "IITGn Mess Food Wastage March",
-      "description": "",
-      "order": 999
-    },
-    "Shakespear": {
-      "visible": true,
-      "category": "Python",
-      "title": "Shakespear",
-      "description": "A lightweight Python CLI chatbot that generates authentic Shakespeare Responses.",
-      "order": 999
-    },
     "IITGn-Day22": {
       "visible": false,
       "category": "AI/ML",
@@ -96,13 +110,6 @@
       "category": "AI/ML",
       "title": "IITGn Day20",
       "description": "",
-      "order": 999
-    },
-    "admitguard-yash-parmar": {
-      "visible": true,
-      "category": "Python",
-      "title": "Admitguard Yash Parmar",
-      "description": "Project Name: AdmitGuard: Admission Data Validation & Compliance System (WEEK 1 VIBE CODING PROJECT)",
       "order": 999
     },
     "IITGn-Day11_PM": {
