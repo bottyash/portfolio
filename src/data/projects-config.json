@@ -1,5 +1,12 @@
 {
   "repos": {
+    "parishiksha": {
+      "visible": true,
+      "category": "Python",
+      "title": "Parishiksha",
+      "description": "NCERT textbook corpus pipeline: PDF extraction → structured segmentation → BM25 retrieval. Built for a grounded QA system.",
+      "order": 999
+    },
     "portfolio": {
       "visible": true,
       "category": "Web Development",
@@ -42,11 +49,81 @@
       "description": "Project Name: AdmitGuard: Admission Data Validation & Compliance System (WEEK 1 VIBE CODING PROJECT)",
       "order": 999
     },
-    "parishiksha": {
+    "smartdialer": {
       "visible": true,
       "category": "Python",
-      "title": "Parishiksha",
-      "description": "NCERT textbook corpus pipeline: PDF extraction → structured segmentation → BM25 retrieval. Built for a grounded QA system.",
+      "title": "Smartdialer",
+      "description": "SmartDialer prototype. Predictive pacing behind a hard safety boundary, crash safe workers, hostile mock providers, zero dependencies.",
+      "order": 1
+    },
+    "bottyash": {
+      "visible": false,
+      "category": "Project",
+      "title": "Bottyash",
+      "description": "",
+      "order": 999
+    },
+    "PathShala": {
+      "visible": true,
+      "category": "Python",
+      "title": "PathShala",
+      "description": "",
+      "order": 999
+    },
+    "cartly": {
+      "visible": true,
+      "category": "Python",
+      "title": "Cartly",
+      "description": "",
+      "order": 999
+    },
+    "InterviewCommunicationCoach": {
+      "visible": true,
+      "category": "Python",
+      "title": "InterviewCommunicationCoach",
+      "description": "",
+      "order": 999
+    },
+    "MeridianFinancial": {
+      "visible": true,
+      "category": "Python",
+      "title": "MeridianFinancial",
+      "description": "AI-powered platform for smarter customer outreach and complaint intelligence. Predicts campaign conversion using behavioral data, answers questions over complaint narratives with RAG + cited evidence, and includes monitoring, drift detection, scalable APIs, and production-ready ML workflows.",
+      "order": 999
+    },
+    "OpsAssist": {
+      "visible": false,
+      "category": "Python",
+      "title": "OpsAssist",
+      "description": "The objective of this project is to build an Operations Assistant using a Model Context Protocol (MCP) server and a CrewAI multi-agent system. The system will operate entirely locally using a free LLM, querying local documents and a spreadsheet to write a well-sourced, evidence-backed report in response to business operations questions.",
+      "order": 999
+    },
+    "RAGGuard": {
+      "visible": true,
+      "category": "Python",
+      "title": "RAGGuard",
+      "description": "Production-grade safety and reliability framework for Retrieval-Augmented Generation (RAG) systems.  RAGGuard adds three missing trust layers to modern RAG pipelines:  Chronos — Temporal Decay Re-ranking Concord — Contradiction Detection Verify — Citation Verification",
+      "order": 999
+    },
+    "krACCYHackers": {
+      "visible": false,
+      "category": "Python",
+      "title": "KrACCYHackers",
+      "description": "Week 11 IITGn Hackathon",
+      "order": 999
+    },
+    "LangGraphDemo": {
+      "visible": false,
+      "category": "Python",
+      "title": "LangGraphDemo",
+      "description": "",
+      "order": 999
+    },
+    "AttentionSeeker": {
+      "visible": true,
+      "category": "Web Development",
+      "title": "AttentionSeeker",
+      "description": "It's not you, it's your embeddings",
       "order": 999
     },
     "IITGn-Assignments": {
@@ -200,13 +277,6 @@
       "visible": false,
       "category": "AI/ML",
       "title": "LangChainKN",
-      "description": "",
-      "order": 999
-    },
-    "bottyash": {
-      "visible": false,
-      "category": "Project",
-      "title": "Bottyash",
       "description": "",
       "order": 999
     }
